@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.share.what.you.like"
+       name="ShareWhatYouLike"
+       version="1.0.0"
+       provider-name="AddonScriptorDE">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+      <summary lang="en">Simply share online streaming content with your friends. You need an Dropbox-Account for this Add-On</summary>
+      <summary lang="de">Schnell und einfach Online-Media Playlisten mit Freunden teilen. Benötigt wird ein Dropbox-Account.</summary>
+      <language></language>
+      <description lang="en">Simply share online streaming content with your friends. You need an Dropbox-Account for this Add-On</description>
+      <description lang="de">Schnell und einfach Online-Media Playlisten mit Freunden teilen. Benötigt wird ein Dropbox-Account.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
